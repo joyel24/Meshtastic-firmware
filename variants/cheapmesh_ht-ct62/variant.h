@@ -6,7 +6,16 @@
 #define LED_PIN 2      // LED
 #define LED_STATE_ON 1 // State when LED is lit
 
-#define HAS_SCREEN 0
+//#define HAS_SCREEN 1
+#define USE_SSD1306
+
+#define I2C_SDA 1 // I2C pins for this board
+#define I2C_SCL 0
+
+#define BUTTON_PIN 9
+#define BUTTON_NEED_PULLUP
+
+
 #define HAS_GPS 0
 #undef GPS_RX_PIN
 #undef GPS_TX_PIN
